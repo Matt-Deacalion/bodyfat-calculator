@@ -8,6 +8,58 @@
     </head>
 
     <body>
+        <div>
+            <header>
+                <h1>Bodyfat calculator</h1>
+
+                <a href="/">
+                    <img src="reset.svg">
+                </a>
+            </header>
+
+            <form>
+                <div class="sex">
+                    <div>
+                        <input type="radio" id="female" name="sex" value="female">
+                        <label for="female">Female</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="male" name="sex" value="male">
+                        <label for="male">Male</label>
+                    </div>
+                </div>
+
+                <div class="metric naval">
+                    <div>
+                        <label for="naval">Naval:</label>
+                        <input type="text" id="naval" name="naval">
+                    </div>
+                </div>
+
+                <div class="metric neck">
+                    <div>
+                        <label for="neck">Neck:</label>
+                        <input type="text" id="neck" name="neck">
+                    </div>
+                </div>
+
+                <div class="metric height">
+                    <div>
+                        <label for="height">Height:</label>
+                        <input type="text" id="height" name="height">
+                    </div>
+                </div>
+
+                <div class="metric hip">
+                    <div class="disabled">
+                        <label for="hip">Hip:</label>
+                        <input type="text" id="hip" name="hip">
+                    </div>
+                </div>
+            </form>
+        </div>
+
         <script src="main.js"></script>
     </body>
 </html>
