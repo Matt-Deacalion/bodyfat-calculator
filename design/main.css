@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Patrick Hand SC';
+    font-weight: 400;
+    font-style: normal;
+
+    src: url('PatrickHand-Regular.ttf');
+}
+
 body {
     background: #f9fafb;
 }
