@@ -149,7 +149,8 @@ export default {
 
         user-select: none;
 
-        background: #f9fafb;
+        background: url('~@/assets/background.jpg');
+        background-size: cover;
     }
 
     #app {
@@ -207,6 +208,8 @@ export default {
 
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
+
+        background: #f9fafb;
     }
 
     label {
