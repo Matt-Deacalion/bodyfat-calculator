@@ -8,6 +8,7 @@
                 :value="measure"
                 @input="$emit('input', $event.target.value)"
                 @keypress="onlyNumber"
+                placeholder="cm"
             />
         </div>
     </div>
