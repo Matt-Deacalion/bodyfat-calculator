@@ -101,7 +101,7 @@ form .metric > div {
     justify-content: space-between;
 }
 
-.disabled > * {
+.disabled::after, .disabled > * {
     opacity: .25;
 }
 
